@@ -1,0 +1,40 @@
+*{
+ margin:0;
+}
+ .page{
+    border:3px solid green;
+    border-radius:10px ;/*para que salga ovalado*/
+    margin:20px auto;/*trabajan los 4 lados*/
+    width:50%;
+    padding:10px ;
+ }
+ h1{
+     text-align:center;
+
+ }
+ p{
+    text-align:justify;
+ }
+ .boton{
+    display:inline-block;
+    font-family:monospace;
+    font-style:oblique;
+    width:80px;
+    margin:35px 10px;
+    padding:8px;
+    border-radius:15px;
+    text-decoration:none;/* quitamos la linea de texto*/
+    text-transform:uppercase;/*cambia el texto con mayuscula*/
+    background-color:green;
+    color: #fff;
+    transition-duration:300ms;
+
+ }
+ .boton:hover{
+    opacity:0.8;
+    color: chartreuse;
+    background-color: orange;
+ }
+ :active{
+    transform:scale(0.8);
+ }
